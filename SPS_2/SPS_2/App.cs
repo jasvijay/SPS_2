@@ -9,6 +9,18 @@ namespace SPS_2
 {
     public class App : Application
     {
+        static JobDatabase database;        
+        public static JobDatabase Database
+        {
+            get
+            {
+                if (database == null)
+                {
+                    database = new JobDatabase();
+                }
+                return database;
+            }
+        }        
         public App()
         {
             // The root page of your application
