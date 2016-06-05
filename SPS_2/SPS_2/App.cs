@@ -24,7 +24,7 @@ namespace SPS_2
         public App()
         {
             // The root page of your application
-            MainPage = new NavigationPage(new Loginpage());
+            MainPage = new NavigationPage(new StartShift());
         }
 
         protected override void OnStart()

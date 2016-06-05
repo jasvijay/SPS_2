@@ -13,7 +13,6 @@ namespace SPS_2
         public StartShift()
         {
             Title = "Shift Start";
-            NavigationPage.SetHasBackButton(this, false);
             Padding = new Thickness(50);
             location = new Entry { Placeholder = "Brisbane" };
             ZoneID = new Entry { Placeholder = "Zone ID" };

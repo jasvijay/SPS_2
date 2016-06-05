@@ -43,7 +43,6 @@
     <Compile Include="JobItem.cs" />
     <Compile Include="JobPage.cs" />
     <Compile Include="Jobs.cs" />
-    <Compile Include="Loginpage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="StartShift.cs" />
     <Compile Include="Tabs.cs" />
